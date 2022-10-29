@@ -13,7 +13,7 @@ $iNum = rand(60, 70000);
 sleep($iNum);
 
 // 请修改成自己的cookie
-$sCookie = '_ga=GA1.2.494268091.1666749187; _gid=GA1.2.1913001941.1666749187; koa:sess=eyJ1c2VySWQiOjIyNDA2NiwiX2V4cGlyZSI6MTY5MjY2OTI4NDI0NywiX21heEFnZSI6MjU5MjAwMDAwMDB9; koa:sess.sig=9YwsoIn4SG8KWqGHXluLNNJkaDM';
+$sCookie = '';
 if (empty($sCookie)) {
     exit('请填写cookie' . PHP_EOL);
 }
