@@ -12,7 +12,7 @@
 
    `0 1 * * *       php /home/deploy/shell/qiandao_glados.php`
 
-5. 日志位置
+5. 日志位置。
 
    ![日志位置](https://gitee.com/zach_li/picture/raw/master/typora/image-20221029134541689.png)
 

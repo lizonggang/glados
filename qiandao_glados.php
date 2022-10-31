@@ -9,7 +9,7 @@
 
 set_time_limit(0);
 date_default_timezone_set('PRC');
-$iNum = rand(60, 70000);
+$iNum = rand(0, 80000);
 sleep($iNum);
 
 // 请修改成自己的cookie
