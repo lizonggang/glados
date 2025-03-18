@@ -9,7 +9,7 @@
 
 set_time_limit(0);
 date_default_timezone_set('PRC');
-$iNum = rand(0, 80000);
+$iNum = rand(0, 20000);
 sleep($iNum);
 
 // 请修改成自己的cookie
@@ -32,10 +32,11 @@ $aHeader = array(
     'sec-fetch-mode: cors',
     'sec-fetch-site: same-origin',
     'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36',
+    'Authorization: 64757643043242523618844748293944-982-1512',
 );
 
 $aData = array(
-    'token' => 'glados.network'
+    'token' => 'glados.one'
 );
 
 $result = httpRequest($sUrl, 'POST', $aData, $aHeader);
